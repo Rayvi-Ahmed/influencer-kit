@@ -4,7 +4,7 @@
 
 .menu-area {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-left: 40px;
     margin-top: 100px;
     align-items: center;
@@ -39,4 +39,66 @@
     cursor: pointer;
     height: 36px;
 
+}
+
+.banner-area {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-top: 200px;
+}
+
+.banner-info {
+    width: 580px;
+    margin-left: 40px;
+    color: #3A3A3A;
+
+}
+
+.banner-info p {
+    width: 500px;
+}
+
+.btn {
+    background-image: linear-gradient(#E02C6D, rgb(73, 13, 23));
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 35px 15px;
+    cursor: pointer;
+
+
+}
+
+.banner-img {
+    width: 440px;
+    height: 350px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+/*********************** Brand Banner Area start *************************/
+.brand-banner {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 200px;
+    align-items: center;
+
+}
+
+/**************************Brand Banner Area end****************************** */
+
+.collection-Heading {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.product-container {
+    border: solid 1px red;
+}
+
+.card {
+    border: solid 1px gray;
+    width: 250x;
 }
